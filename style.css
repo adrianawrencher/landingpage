@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@200&family=Montserrat:wght@300;400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-attachment: fixed;
+  font-size: 100%;
+  position: relative;
+  background-image: linear-gradient(
+    225deg,
+    #a92c43 0,
+    #9c2345 10%,
+    #8b1a45 20%,
+    #761141 30%,
+    #5e073a 40%,
+    #44002f 50%,
+    #2c0023 60%,
+    #1d0018 70%,
+    #08000c 80%,
+    #000000 90%,
+    #000000 100%
+  );
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.logo1 {
+  max-height: 65px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 35px;
+}
+
+.cabecalho-menu-item {
+  font-family: 'Montserrat', sans-serif;
+  color: lightgray;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.principal {
+  border-top: 0.3px solid gray;
+  margin-bottom: 50px;
+}
+
+.secao-principal {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-left: 5%;
+  margin-top: 30px;
+}
+
+.apresentacao {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.titulo1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 65px;
+  color: lightgray;
+  text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.subtitulo {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: rgb(153, 149, 149);
+}
+
+.secao2 {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 88px;
+}
+
+.titulo-secao-2 {
+  border-top: 0.4px solid gray;
+  text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  padding-top: 45px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 200;
+  font-size: 30px;
+  color: lightgray;
+  margin-bottom: 15px;
+}
+
+.paragrafo-secao-2 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: rgb(153, 149, 149);
+}
+
+.rodape {
+  padding: 30px;
+  border-top: 0.3px solid gray;
+}
+
+.logo2 {
+  max-height: 88px;
+  display: block;
+  margin: 0 auto;
+}
+
+.texto-rodape {
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: lightgrey;
+}
